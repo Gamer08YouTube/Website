@@ -1,21 +1,21 @@
 {
   "settings": {
     "name": "NixonMC",
-    "currentPage": "index.html",
+    "currentPage": "Infos.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
       "styling": {}
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 10,
+    "uniqCompNum": 14,
     "versionPublish": "3.12.1"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "",
+        "title": "Home | Start",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -161,6 +161,88 @@
           ],
           "_name": "footer1",
           "_anchor": "footer1-9",
+          "_params": {
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgColor": "#26272c",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "<p>Copyright (c) 2017 NixonMC.tk&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; Website by Dev-Gamer08</p>"
+        }
+      ]
+    },
+    "Infos.html": {
+      "settings": {
+        "title": "Server | Infos"
+      },
+      "components": [
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_styles": {
+            ".navbar-toggler": {
+              "color": "#000"
+            }
+          },
+          "_anchor": "menu-a",
+          "_params": {
+            "hamburgerColor": "#000",
+            "sticky": true,
+            "transparent": true,
+            "color": "#fff",
+            "collapsed": true,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/server-icon-128x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://nixonmc.tk",
+              "title": "",
+              "linkInNewWindow": true
+            }
+          },
+          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">NixonMC.tk | Dein Server Netzwerk</a>",
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://nixonmc.tk\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn-parent\"></span>Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://nixonmc.tk\"><span class=\"mbri-edit mbr-iconfont mbr-iconfont-btn-parent\"></span>Forum</a></li>"
+        },
+        {
+          "alias": "deltapieditor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "deltapieditor",
+          "_anchor": "deltapieditor-c",
+          "_params": {
+            "_customHTML": "<header><img src=\"http://topg.org/image/170417/274833.gif\" alt=\"Drüber fahrer\"></header>\n<img src=\"http://status.mclive.eu/NixonMC/nixonmc.tk/25565/banner.png\">",
+            "_customCSS": "p{color:white;}",
+            "bgImageRadio": false,
+            "parallax": false,
+            "bgImage": "http://home.scarlet.be/patrickdegand/assets/images/thumbnail-128x128-4.png",
+            "bgColor": "#f2f2f2",
+            "bgColorRadio": true
+          },
+          "_customCSS": "p{color:white;}",
+          "_customHTML": "<header><img src=\"http://topg.org/image/170417/274833.gif\" alt=\"Drüber fahrer\"></header>\n<img src=\"http://status.mclive.eu/NixonMC/nixonmc.tk/25565/banner.png\">"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-b",
           "_params": {
             "bgImageRadio": false,
             "parallax": true,
