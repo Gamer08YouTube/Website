@@ -1,0 +1,179 @@
+{
+  "settings": {
+    "name": "NixonMC",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "purity",
+      "title": "PurityM",
+      "styling": {}
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 10,
+    "versionPublish": "3.12.1"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_styles": {
+            ".navbar-toggler": {
+              "color": "#000"
+            }
+          },
+          "_anchor": "menu-0",
+          "_params": {
+            "hamburgerColor": "#000",
+            "sticky": true,
+            "transparent": true,
+            "color": "#fff",
+            "collapsed": true,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/server-icon-128x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://nixonmc.tk",
+              "title": "",
+              "linkInNewWindow": true
+            }
+          },
+          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">NixonMC.tk | Dein Server Netzwerk</a>",
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://nixonmc.tk\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn-parent\"></span>Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://nixonmc.tk\"><span class=\"mbri-edit mbr-iconfont mbr-iconfont-btn-parent\"></span>Forum</a></li>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-3",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-1.jpg",
+            "bgColor": "#fff8e0",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#ffffff",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "showArrow": true
+          },
+          "title": "NixonMC",
+          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://nixonmc.tk\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>Website</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://forum.nixonmc.tk\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-edit mbr-iconfont mbr-iconfont-btn\"></span>Forum</a>"
+        },
+        {
+          "alias": "modalblock",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "modal-block",
+          "_anchor": "modal-block-7",
+          "_params": {
+            "showModal": false,
+            "blockTitle": "<h1>Modal Block Title</h1>",
+            "text": "<h2>use : javascript:showModal('myModal');<br>as button URL to activate this modal window</h2>",
+            "myModalId": "myModal",
+            "bgColor": "#fefefe",
+            "extEdit": false
+          },
+          "blockTitle": "<h1>Modal Block Title</h1>",
+          "text": "<h2>use : javascript:showModal('myModal');<br>as button URL to activate this modal window</h2>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-6",
+          "_params": {
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "facebook": true,
+            "counters": true,
+            "twitter": true,
+            "google": true
+          },
+          "text": "Teile uns mit deinen Freunden !",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "36px",
+              "text-align": "right"
+            }
+          }
+        },
+        {
+          "alias": "modalblock",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "modal-block",
+          "_anchor": "modal-block-5",
+          "_params": {
+            "showModal": false,
+            "blockTitle": "<h1>Modal Block Title</h1>",
+            "text": "<h2>use : javascript:showModal('myModal');<br>as button URL to activate this modal window</h2>",
+            "myModalId": "myModal",
+            "bgColor": "#fefefe",
+            "extEdit": false
+          },
+          "blockTitle": "<h1>Modal Block Title</h1>",
+          "text": "<h2>use : javascript:showModal('myModal');<br>as button URL to activate this modal window</h2>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-9",
+          "_params": {
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgColor": "#26272c",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "<p>Copyright (c) 2017 NixonMC.tk&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; Website by Dev-Gamer08</p>"
+        }
+      ]
+    }
+  }
+}
